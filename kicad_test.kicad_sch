@@ -164,6 +164,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Potentiometer_US"
 			(pin_names
 				(offset 1.016) hide)
@@ -995,6 +1116,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 77.47) (xy 102.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19764a77-f4a1-42e4-b890-baab44a64e8c")
+	)
+	(wire
+		(pts
 			(xy 59.69 66.04) (xy 78.74 66.04)
 		)
 		(stroke
@@ -1035,6 +1166,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 77.47) (xy 102.87 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36337bc5-66f7-4231-9122-03ceb77c7e50")
+	)
+	(wire
+		(pts
+			(xy 114.3 81.28) (xy 102.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aca7254-8fc6-49b0-989c-69102cae5417")
+	)
+	(wire
+		(pts
 			(xy 115.57 49.53) (xy 115.57 66.04)
 		)
 		(stroke
@@ -1065,7 +1216,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 76.2) (xy 102.87 81.28)
+			(xy 114.3 76.2) (xy 114.3 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 71.12) (xy 102.87 71.12)
+			(xy 91.44 71.12) (xy 114.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 71.12) (xy 135.89 71.12)
+			(xy 139.7 71.12) (xy 135.89 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1175,6 +1326,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 66.04) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd31583c-c680-4a0e-a9bd-1b51726a07b1")
+	)
+	(wire
+		(pts
 			(xy 93.98 49.53) (xy 115.57 49.53)
 		)
 		(stroke
@@ -1182,6 +1343,76 @@
 			(type default)
 		)
 		(uuid "ffc785c9-6ee9-42e6-afd5-df57590a0385")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06a3a1ce-d344-4fe7-a5ee-85fa9fd50883")
+		(property "Reference" "R5"
+			(at 132.08 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 132.08 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.762 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5b9d84e-39a0-447c-a421-16ee6a2d5f30")
+		)
+		(pin "1"
+			(uuid "55614e02-eb92-4f77-9d7f-7d331ff6c6af")
+		)
+		(instances
+			(project "kicad_test"
+				(path "/2cb83d25-f0a0-4d5f-8f4f-a0026e80b9d3"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -1319,7 +1550,7 @@
 	)
 	(symbol
 		(lib_id "Timer:ICM7555xP")
-		(at 115.57 76.2 0)
+		(at 127 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1328,7 +1559,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d83f1da-dba7-45b1-b092-7aaab892b93e")
 		(property "Reference" "U1"
-			(at 117.7641 63.5 0)
+			(at 129.1941 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1568,7 @@
 			)
 		)
 		(property "Value" "ICM7555xP"
-			(at 117.7641 66.04 0)
+			(at 129.1941 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1577,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 132.08 86.36 0)
+			(at 143.51 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +1586,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf"
-			(at 137.16 86.36 0)
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,7 +1595,7 @@
 			)
 		)
 		(property "Description" "CMOS General Purpose Timer, 555 compatible, PDIP-8"
-			(at 115.57 76.2 0)
+			(at 127 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,6 +1789,76 @@
 			(project "kicad_test"
 				(path "/2cb83d25-f0a0-4d5f-8f4f-a0026e80b9d3"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e998897-d33f-4f1c-9854-766b2043f119")
+		(property "Reference" "R3"
+			(at 115.57 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 115.57 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.252 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99b3166c-5ad7-4592-a366-305a9e2eb230")
+		)
+		(pin "1"
+			(uuid "fbfcdf90-4a5b-45aa-afc0-da2f1d970180")
+		)
+		(instances
+			(project ""
+				(path "/2cb83d25-f0a0-4d5f-8f4f-a0026e80b9d3"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1767,6 +2068,76 @@
 			(project "kicad_test"
 				(path "/2cb83d25-f0a0-4d5f-8f4f-a0026e80b9d3"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5cda230-3084-4cbf-aed7-f800fd678000")
+		(property "Reference" "R4"
+			(at 124.46 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 124.46 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.142 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55b65862-71f2-46a5-ab91-35aba23676ef")
+		)
+		(pin "1"
+			(uuid "7ab75d2a-c7c4-4bbe-80a6-525dc9b99dbf")
+		)
+		(instances
+			(project "kicad_test"
+				(path "/2cb83d25-f0a0-4d5f-8f4f-a0026e80b9d3"
+					(reference "R4")
 					(unit 1)
 				)
 			)

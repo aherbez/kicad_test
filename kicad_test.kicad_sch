@@ -1481,76 +1481,6 @@
 		(uuid "ffc785c9-6ee9-42e6-afd5-df57590a0385")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 129.54 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06a3a1ce-d344-4fe7-a5ee-85fa9fd50883")
-		(property "Reference" "R5"
-			(at 132.08 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 132.08 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
-			(at 127.762 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 129.54 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5b9d84e-39a0-447c-a421-16ee6a2d5f30")
-		)
-		(pin "1"
-			(uuid "55614e02-eb92-4f77-9d7f-7d331ff6c6af")
-		)
-		(instances
-			(project "kicad_test"
-				(path "/2cb83d25-f0a0-4d5f-8f4f-a0026e80b9d3"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 139.7 71.12 90)
 		(unit 1)
@@ -1949,7 +1879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "100k"
 			(at 115.57 38.0999 0)
 			(effects
 				(font
@@ -1995,6 +1925,76 @@
 			(project ""
 				(path "/2cb83d25-f0a0-4d5f-8f4f-a0026e80b9d3"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "723f9c15-d13f-46bf-8afe-25b962813a00")
+		(property "Reference" "C4"
+			(at 139.7 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 139.7 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+			(at 136.8552 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d0fe28c-de1a-4c94-978b-cc77c72d2b58")
+		)
+		(pin "1"
+			(uuid "42fd1a12-807d-4581-a34b-e734a10edf89")
+		)
+		(instances
+			(project "kicad_test"
+				(path "/2cb83d25-f0a0-4d5f-8f4f-a0026e80b9d3"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2281,7 +2281,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 53.34 0)
+		(at 124.46 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2290,7 +2290,7 @@
 		(fields_autoplaced yes)
 		(uuid "e02a9d4d-dd41-4918-a86c-7ce2a90377d3")
 		(property "Reference" "C3"
-			(at 129.54 52.0699 0)
+			(at 128.27 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2299,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 129.54 54.6099 0)
+			(at 128.27 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2308,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
-			(at 126.6952 57.15 0)
+			(at 125.4252 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2317,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 53.34 0)
+			(at 124.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2326,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 53.34 0)
+			(at 124.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
